@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>index</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+<div id="resulttoshow">
+	
+</div>
+	<!-- The main container -->
+	<div class="Container">
+
+	<!-- the header starts here -->
+		<div id="Header">
+		 	<h1>Pop Culture Trivia Questions </h1>
+
+		 	<button id="Click_me_tostart" type="button"> Click to start! </button>
+		 </div>
+	<div id="wrapper" style= "display: none">
+		 <!-- the count down container -->
+		 <div id="time_counter">
+		 	<h2 id="Count_down"> </h2>
+		 	<h3 id="final_result"></h3>
+		 </div>
+		 <!-- question 1 div -->
+		 <div id="Questions 1">
+		 	<p>1- Which actor starred alongside Melissa McCarthy in the 2013 comedy film "Identify Thief"? </p>
+		 	<!-- answer list -->
+		 	<form action="possible_answers">
+  				<input type="radio" name="Q1" class="answer_choice" value="0"> 
+  				<label>Paul Rudd</label>
+ 			 	<input type="radio" name="Q1" class="answer_choice" value="1"> 
+ 			 	<label>Jason Bateman</label>
+  				<input type="radio" name="Q1" class="answer_choice" value="0"> 
+  				<label>Steve Carell</label>
+  				<input type="radio" name="Q1" class="answer_choice" value="0"> 
+  				<label>Vince Vaughn</label>
+			</form>
+		 </div>
+		  <!-- question 2 div -->
+		 <div id="Questions 2">
+		 	<p>2- "Iron Man" and "Paranoid" were both US Billboard hits for which band? </p>
+		 	<!-- answer list -->
+		 	<form action="possible_answers">
+  				<input type="radio" name="Q2" class="answer_choice" value="0"> 
+  				<label>Metallica</label>
+ 			 	<input type="radio" name="Q2" class="answer_choice" value="1"> 
+ 			 	<label>Black Sabbath</label>
+  				<input type="radio" name="Q2" class="answer_choice" value="0"> 
+  				<label>Thin Lizzy</label>
+  				<input type="radio" name="Q2" class="answer_choice" value="0"> 
+  				<label>Deep Purple</label>
+			</form>
+		 </div>
+
+		 <!-- question 3 div -->
+		 <div id="Questions 3">
+		 	<p>3- Which of the following social networks had the most traffic during 2016?  </p>
+		 	<!-- answer list -->
+		 	<form action="possible_answers">
+
+  				<input type="radio" name="Q3" class="answer_choice" value="0"> <label>Facebook</label>
+
+ 			 	<input type="radio" name="Q3" class="answer_choice" value="0"> <label>Linkdin</label>
+
+  				<input type="radio" name="Q3" class="answer_choice" value="1"> <label>Youtube</label>
+
+  				<input type="radio" name="Q3" class="answer_choice" value="0"> <label>Twitter</label>
+			</form>
+		 </div>
+
+		 <!-- question 4 div -->
+		 <div id="Questions 4">
+		 	<p>4- Complete the title to this 2010 movie - "How to Train Your..."</p>
+		 	<!-- answer list -->
+		 	<form action="possible_answers">
+
+  				<input type="radio" name="Q4" class="answer_choice" value="0"> <label>Husband</label>
+
+ 			 	<input type="radio" name="Q4" class="answer_choice" value="0"> <label>Dog</label>
+
+  				<input type="radio" name="Q4" class="answer_choice" value="0"> <label>Boyfriend</label>
+
+  				<input type="radio" name="Q4" class="answer_choice" value="1"> <label>Dragon</label>
+			</form>
+		 </div>
+
+		 <!-- question 5 div -->
+		 <div id="Questions 5">
+		 	<p>5- Which of these films featuring Leonardo Di Caprio was the first to be released? </p>
+		 	<!-- answer list -->
+		 	<form action="possible_answers">
+
+  				<input type="radio" name="Q5" class="answer_choice" value="0"> <label>The man in the Iron Mask</label>
+
+ 			 	<input type="radio" name="Q5" class="answer_choice" value="0"> <label>Romeo + Juliet</label>
+
+  				<input type="radio" name="Q5" class="answer_choice" value="0"> <label>Body of lies</label>
+
+  				<input type="radio" name="Q5" class="answer_choice" value="1"> <label>The quick and the dead</label>
+			</form>
+		 </div>
+
+		 <!-- question 6 div -->
+		 <div id="Questions 6">
+		 	<p>6- Known as the Man in Black, who had their first number one hit on the Billboard charts with "I Walk the Line" in 1956?  </p>
+		 	<!-- answer list -->
+		 	<form action="possible_answers">
+
+  				<input type="radio" name="Q6" class="answer_choice" value="0"> <label>Roy Obirson</label>
+
+ 			 	<input type="radio" name="Q6" class="answer_choice" value="0"> <label>Eddie Coachran</label>
+
+  				<input type="radio" name="Q6" class="answer_choice" value="0"> <label>Willie Nelson</label>
+
+  				<input type="radio" name="Q6" class="answer_choice" value="1"><label>Johnny Cash</label>
+			</form>
+		 </div>
+
+		 <!-- question 7 div -->
+		 <div id="Questions 7">
+		 	<p>7- What popular board game has playing cards named Creative Cat, Data Head, Star Performer and Word Worm? </p>
+		 	<!-- answer list -->
+		 	<form action="possible_answers">
+
+  				<input type="radio" name="Q7" class="answer_choice" value="0"> <label>Taboo</label>
+
+ 			 	<input type="radio" name="Q7" class="answer_choice" value="0"> <label> 7 Wonders</label>
+
+  				<input type="radio" name="Q7" class="answer_choice" value="0"> <label>Codenames</label>
+
+  				<input type="radio" name="Q7" class="answer_choice" value="1"><label> Cranium</label>
+			</form>
+		 </div>
+
+		 <!-- question 8 div -->
+		 <div id="Questions 8">
+		 	<p>8- Genisys was a 2015 installment to which popular movie series?  </p>
+		 	<!-- answer list -->
+		 	<form action="possible_answers">
+
+  				<input type="radio" name="Q8" class="answer_choice" value="0"> <label>Jurassic Park</label>
+
+ 			 	<input type="radio" name="Q8" class="answer_choice" value="1"> <label> Terminator</label>
+
+  				<input type="radio" name="Q8" class="answer_choice" value="0"> <label> Star Wars</label>
+
+  				<input type="radio" name="Q8" class="answer_choice" value="0"> <label> RoboCop</label>
+			</form>
+		 </div>
+
+		 <!-- question 9 div -->
+		 <div id="Questions 9">
+		 	<p>9- On the Simpsons TV show, what part of Jebediah Springfield Statue does Bart remove in season 1?  </p>
+		 	<!-- answer list -->
+		 	<form action="possible_answers">
+
+  				<input type="radio" name="Q9" class="answer_choice" value="1"> <label>head</label>
+
+ 			 	<input type="radio" name="Q9" class="answer_choice" value="0"> <label> Leg</label>
+
+  				<input type="radio" name="Q9" class="answer_choice" value="0"> <label> Arm</label>
+
+  				<input type="radio" name="Q9" class="answer_choice" value="0"> <label> moustache</label>
+			</form>
+		 </div>
+
+		 <!-- question 10 div -->
+		 <div id="Questions 10">
+		 	<p>10- "Meat on the Table" is the theme tune for which WWE Superstar?   </p>
+		 	<!-- answer list -->
+		 	<form action="possible_answers">
+
+  				<input type="radio" name="Q10" class="answer_choice" value="0"> <label>Kane</label>
+
+ 			 	<input type="radio" name="Q10" class="answer_choice" value="0"> <label> Brodus Clay</label>
+
+  				<input type="radio" name="Q10" class="answer_choice" value="1"> <label> Rayback</label>
+
+  				<input type="radio" name="Q10" class="answer_choice" value="0"><label> Big Show</label>
+			</form>
+		 </div>
+
+		 <!-- question 11 div -->
+		 <div id="Questions 11">
+		 	<p>11- Which of the following classic video games was the first to be released?  </p>
+		 	<!-- answer list -->
+		 	<form action="possible_answers">
+
+  				<input type="radio" name="Q11" class="answer_choice" value="0"> <label>Asteroids</label>
+
+ 			 	<input type="radio" name="Q11" class="answer_choice" value="0"> <label> Donkey Kong</label>
+
+  				<input type="radio" name="Q11" class="answer_choice" value="1"> <label> Space Invaders</label>
+
+  				<input type="radio" name="Q11" class="answer_choice" value="0">
+  				<label> Pac-Man</label>
+			</form>
+		 </div>
+
+		 <!-- question 12 div -->
+		 <div id="Questions12">
+		 	<p>12- Released in 2015, actor Mark Hammil plays which character in "Star Wars -The Force Awakens"?  </p>
+		 	<!-- answer list -->
+		 	<form action="possible_answers">
+				<input type="radio" name="Q12" class="answer_choice" value="0"> <label>Poe Dameron</label>
+				<input type="radio" name="Q12" class="answer_choice" value="0"> <label> Kylo Ren</label>
+				<input type="radio" name="Q12" class="answer_choice" value="1"> <label> Luke Skywalker</label>
+				<input type="radio" name="Q12" class="answer_choice" value="0"><label> Han Solo</label>
+			</form>
+		 </div>
+
+		 <!-- question 13 div -->
+		 <div id="Questions13">
+		 	<p>13- Who spent nine weeks at number-one with the hip hop song "In Da Club" in 2003?  </p>
+		 	<!-- answer list -->
+		 	<form action="possible_answers">
+				<input type="radio" name="Q13" class="answer_choice" value="0"> <label> Eminem </label>
+				<input type="radio" name="Q13" class="answer_choice" value="1"> <label> 50 cent</label>
+ 			 	<input type="radio" name="Q13" class="answer_choice" value="0"> <label> Snoop Dogg</label>
+				<input type="radio" name="Q13" class="answer_choice" value="0">
+  				<label> Dr Dre</label>
+			</form>
+		 </div>
+
+		 <!-- question 14 div -->
+		 <div id="Questions14">
+		 	<p>14- Released in 2008, the song "So What" was a hit for which female singer in 2008?  </p>
+		 	<!-- answer list -->
+		 	<form action="possible_answers">
+  				<input type="radio" name="Q14" class="answer_choice" value="1"> <label> Pink</label>
+ 			 	<input type="radio" name="Q14" class="answer_choice" value="0"> <label> Madonna</label>
+  				<input type="radio" name="Q14" class="answer_choice" value="0"> <label> Lady Gaga</label>
+  				<input type="radio" name="Q14" class="answer_choice" value="0"><label> Rihanna</label>
+  				
+			</form>
+		 </div>
+
+		 <!-- question 15 div -->
+		 <div id="Questions15">
+		 	<p>15- Who is the only actor ever to wear both the Batman suit and the Superman suit in two different films?  </p>
+		 	<!-- answer list -->
+		 	<form action="possible_answers">
+  				<input type="radio" name="Q15" class="answer_choice" value="0"> <label> Christopher Reeves</label>
+ 			 	<input type="radio" name="Q15" class="answer_choice" value="0"> <label> Brandon Routh</label>
+  				<input type="radio" name="Q15" class="answer_choice" value="1"> <label> Ben Affleck</label>
+  				<input type="radio" name="Q15" class="answer_choice" value="0"><label> Dean Cain</label>
+  				
+			</form>
+		 </div>
+
+		 <div id="submit_done">
+		 <button id="Done" type="button"> Done </button>
+
+		 </div>
+
+
+	</div>
+
+	</div>
+
+
+
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	  <script type="text/javascript"> 
+	  $(document).ready(function() {
+// the start button when clicked it shows the quizz and the button hides
+	  $("#Click_me_tostart").click(function(){
+    $("#wrapper").show();
+     $("#Click_me_tostart").hide();
+
+     // the countdown clock
+	var myVar = setInterval(function() {
+
+		myTimer()
+		if (countStartNumber < 0)
+		{
+			clearInterval(myVar);
+			$("#resulttoshow").html("Quizz Over" + "<br />" + answer + " " + "right answers" + "<br /> " + wrong + " " + "wrong answers" + "<br />" + i + " " + "questions answered");
+			$(".Container").hide();
+
+			
+		}
+		
+		}, 1000);
+
+
+    
+    });
+
+var i=0;
+ var answer =0;
+ var right_answer;
+ var wrong = 0;
+ 
+		var mystuff = function(){
+		wrong = 15 - answer;
+		console.log(answer + "answered right");
+	  	console.log(wrong + " answered wrong");
+	}
+
+	
+
+var countStartNumber = 60;
+// the function that decrements the time
+		function myTimer() {
+document.getElementById("Count_down").innerHTML = "Time remainining:" + " " + countStartNumber-- + "sec";
+}
+
+
+
+	  	$(".answer_choice").click(function(){
+	  		i++;
+     answer += parseInt($(this).attr("value"));
+    	 
+    	mystuff();
+}); 
+
+	  	// done button when clicked it hides everything the button and the content of the page also it displays the result of the quizz
+
+	  $("#Done").click(function(){
+    $(".Container").hide();
+    $("#Done").hide();
+    $("#resulttoshow").html("Quizz Over" + "<br />" + answer + " " + "right answers" + "<br /> " + wrong + " " + "wrong answers" + "<br />" + i + " " + "questions answered");
+
+
+ });
+	  	
+	  	//$("#losses").html("<h3>" + losses + "</h3>");
+
+
+
+
+ });
+
+	  </script>
+ 
+</body>
+</html>

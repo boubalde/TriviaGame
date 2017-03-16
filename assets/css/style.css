@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.Container{
+
+	margin-left:  120px;
+	margin-right: 120px;
+	background-color: #FFFF00;
+}
+p{
+	font-size: 24px;
+}
+body{
+	background-image: url("../images/background_image.png");
+}
+h1{
+	font-size: 60px;
+	color: #6A5ACD;
+}
+#Click_me_tostart{
+
+	background-color: #FFB6C1;
+	padding:  25px 35px;
+	  text-align: center;
+	  font-size: 20px;
+	  border: 2px solid #0000FF;
+}
+#Done{
+	background-color: #FFB6C1;
+	padding:   25px 35px;
+	  text-align: center;
+	  font-size: 20px;
+	  border: 2px solid #0000FF;
+}
+#resulttoshow{
+	font-size: 60px;
+	background-color: #FFFF00;
+	margin-left:  120px;
+	margin-right: 120px;
+
+}
+
+
+
+
+
